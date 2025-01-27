@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finance Dashboard</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Main Layout -->
+    <div class="container">
+      <!-- Sidebar -->
+      <nav class="sidebar">
+        <!-- Logo section -->
+        <div class="logo">
+          <i class="fa-solid fa-hexagon-nodes logo-icon"></i>
+          <span class="logo-text">Finance</span>
+        </div>
+
+        <!-- Navigation Links -->
+        <nav class="nav-links">
+          <div class="menu-item active">
+            <a href="#" class="menu-link">
+              <i class="fa-solid fa-house"></i>
+              <span>Dashboard</span>
+              <div class="sub-menu">
+                <span class="active">Classic</span>
+                <span class="active">Minimal</span>
+              </div>
+            </a>
+            <i class="fa-solid fa-chevron-up"></i>
+          </div>
+          <div class="menu-item active">
+            <a href="#" class="menu-link">
+              <i class="fa-solid fa-images"></i>
+              <span>Pages</span>
+            </a>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="menu-item active">
+            <a href="#" class="menu-link">
+              <i class="fa-solid fa-square-share-nodes"></i>
+              <span>Applications</span>
+            </a>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="menu-item active">
+            <a href="#" class="menu-link">
+              <i class="fa-solid fa-check-double"></i>
+              <span>UI Component</span>
+            </a>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="menu-item active">
+            <a href="#" class="menu-link">
+              <i class="fa-solid fa-mobile-button"></i>
+              <span>Widgets</span>
+            </a>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="menu-item active">
+            <a href="#" class="menu-link">
+              <i class="fa-solid fa-list-ul"></i>
+              <span>Forms</span>
+            </a>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="menu-item active">
+            <a href="#" class="menu-link">
+              <i class="fa-solid fa-chart-column"></i>
+              <span>Charts</span>
+            </a>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+        </nav>
+      </nav>
+      <!-- Main Content -->
+      <div class="main-container">
+        <!-- Header -->
+        <header class="header">
+          <div class="search-bar">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <span>Search here...</span>
+          </div>
+          <div class="header-action">
+            <div class="header-action-item">
+              <i class="fa-regular fa-bell"></i>
+            </div>
+            <div class="header-action-item">
+              <i class="fa-regular fa-comment"></i>
+            </div>
+            <img src="./img/user.png" alt="user profile" class="user-img" />
+          </div>
+        </header>
+        <!-- Main Dashboard -->
+        <main class="main-content">
+          <!-- Cards Grid -->
+          <div class="card-grid">
+            <div class="card card-dark-blue">
+              <div class="card-title">Total Income</div>
+              <div class="card-value">$ 579,000</div>
+              <div class="card-info">Saved: 25%</div>
+            </div>
+            <div class="card card-light-blue">
+              <div class="card-title">Total Expenses</div>
+              <div class="card-value">$ 79,000</div>
+              <div class="card-info">Saved: 25%</div>
+            </div>
+            <div class="card card-purple">
+              <div class="card-title">Cash on Hand</div>
+              <div class="card-value">$ 92,000</div>
+              <div class="card-info">Saved: 25%</div>
+            </div>
+            <div class="card card-green">
+              <div class="card-title">Net Profit Margin</div>
+              <div class="card-value">$ 179,000</div>
+              <div class="card-info">Saved: 25%</div>
+            </div>
+          </div>
+          <div class="chart-section">
+            <div class="bar-chart">
+              <img src="./img/bar-chart.jpeg" alt="bar-chart" />
+            </div>
+            <div class="pie-chart">
+              <div class="pie-chart-1">
+                <img src="./img/pie-chart-1.jpeg" alt="pie-chart" />
+              </div>
+              <div class="pie-chart-2">
+                <img src="./img/pie-chart-2.jpeg" alt="pie-chart" />
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
